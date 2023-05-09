@@ -1,2 +1,2 @@
-# F1TENTH_Autonomous_Racing
+# F1TENTH Autonomous Racing
 Autonomous Racing using F1TENTH
