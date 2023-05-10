@@ -40,8 +40,8 @@ public:
 	float right_avg = ranges[360]; // initialize to right range
 	float left_sum=0.0, right_sum=0.0;
 	for(int i=0; i<60; i++) {
-		left_sum += [720+i]; // 15 deg sector from 45 to 60
-		right_sum += [300+i]; // 15 deg sector from -60 to -45
+		left_sum += ranges[720+i]; // 15 deg sector from 45 to 60
+		right_sum += ranges[300+i]; // 15 deg sector from -60 to -45
 	}
 	left_avg = left_sum/60;
 	right_avg = right_sum/60;
